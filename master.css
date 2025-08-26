@@ -53,6 +53,9 @@ body {
   text-align: center;
   padding: 20px;
 }
+.colomus {
+  box-sizing: border-box;
+}
 
 /* صورة البروفايل */
 .my-profile {
@@ -145,4 +148,27 @@ body {
   width: 100%;
 }
 }
-  
+  @media screen and (max-width:600px) {
+  .menu-list {
+    text-align: right;
+  }
+  .liste {
+    float: none;
+    display: block;
+  }
+  .p-liste {
+    display: block;
+    text-align: center;
+  }
+}
+.my-profile {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.social {
+  width: 30px;
+  height: auto;
+}
