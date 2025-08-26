@@ -128,3 +128,9 @@
     left: 0%;
   }
 }
+.timeline {
+  padding: 0 10px;
+}
+.content {
+  font-size: 14px; /* لتصغر النصوص شوي بالموبايل */
+}
